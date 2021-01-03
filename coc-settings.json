@@ -3,14 +3,16 @@
         "css",
         "markdown",
         "javascript",
+        "typescript",
         "graphql",
         "html",
         "yaml",
         "json",
         "python",
-        "rust"
+        "rust",
+        "go"
     ],
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
+    "python.linting.pylintEnabled": false,
     "python.formatting.provider": "black"
 }

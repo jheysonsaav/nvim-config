@@ -1,38 +1,32 @@
 call plug#begin('~/.config/nvim/plugged')
 
-" theme
+" themes
 Plug 'joshdick/onedark.vim'
-" syntasix suport
+Plug 'ghifarit53/tokyonight-vim'
+
+" IDE tools
+Plug 'editorconfig/editorconfig-vim'
 Plug 'sheerun/vim-polyglot'
-" view css colors
-Plug 'ap/vim-css-color'
-"airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-" intelligense
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" file explorer
 Plug 'preservim/nerdtree'
-" prettier
-Plug 'prettier/vim-prettier', {'do': 'yarn install'}
-" javascrit & typescript
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'mhinz/vim-signify'
+Plug 'Yggdroot/indentLine'
+Plug 'alvan/vim-closetag'
+Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdcommenter'
+
+" languages support plugins
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
-Plug 'HerringtonDarkholme/yats.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'peitalin/vim-jsx-typescript'
-" autopairs
-Plug 'jiangmiao/auto-pairs'
-Plug 'preservim/nerdcommenter'
-" preview markdown
-Plug 'iamcco/markdown-preview.vim'
-" icons
-Plug 'ryanoasis/vim-devicons'
-" Autoclose tags
-Plug 'alvan/vim-closetag'
-" Git integration
-Plug 'mhinz/vim-signify'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'ap/vim-css-color'
+
+" linters and formatters
+Plug 'prettier/vim-prettier', {'do': 'yarn install'}
 
 call plug#end()
-
