@@ -1,8 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " themes
-Plug 'joshdick/onedark.vim'
 Plug 'ghifarit53/tokyonight-vim'
+"Plug 'joshdick/onedark.vim'
 
 " IDE tools
 Plug 'editorconfig/editorconfig-vim'
@@ -16,6 +16,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'alvan/vim-closetag'
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
+Plug 'SirVer/ultisnips'
 
 " languages support plugins
 Plug 'yuezk/vim-js'
@@ -23,7 +24,6 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'leafgarland/typescript-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'peitalin/vim-jsx-typescript'
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'ap/vim-css-color'
 
 " linters and formatters

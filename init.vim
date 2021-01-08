@@ -5,10 +5,11 @@ source $HOME/.config/nvim/general/keys.vim
 " vim plug
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
-" plug cinfig
+" plug config
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 source $HOME/.config/nvim/plug-config/airline.vim
 source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/ultisnips.vim
 
 " themes
 source $HOME/.config/nvim/themes/$VIM_THEME.vim
