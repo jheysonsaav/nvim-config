@@ -25,6 +25,8 @@ Plug 'leafgarland/typescript-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'ap/vim-css-color'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'rust-lang/rust.vim'
 
 " linters and formatters
 Plug 'prettier/vim-prettier', {'do': 'yarn install'}
