@@ -1,0 +1,25 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "rust",
+    "go"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Path": "/usr/bin/flake8",
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/usr/bin/black",
+  "deno.lint": true,
+  "deno.config": "./tsconfig.json",
+  "deno.unstable": true,
+  "deno.importMap": "./import_map.json"
+}
