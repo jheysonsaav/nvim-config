@@ -2,16 +2,21 @@
 let mapleader = " "
 
 " Keys for write an quit neovim commands 
-nnoremap <leader>q :q<CR>
-nnoremap <leader>w :w<CR>
-nnoremap <leader>qq :q!<CR>
-nnoremap <leader>ww :w!<CR>
+nnoremap <silent> <leader>q :q<CR>
+nnoremap <silent> <leader>w :w<CR>
+nnoremap <silent> <leader>qq :q!<CR>
+nnoremap <silent> <leader>ww :w!<CR>
 
 " Movements between windows
 nnoremap <silent> <C-left> :wincmd h<CR>
 nnoremap <silent> <C-right> :wincmd l<CR>
 nnoremap <silent> <C-up> :wincmd k<CR>
 nnoremap <silent> <C-down> :wincmd j<CR>
+
+nnoremap <silent> <C-h> :wincmd h<CR>
+nnoremap <silent> <C-l> :wincmd l<CR>
+nnoremap <silent> <C-k> :wincmd k<CR>
+nnoremap <silent> <C-j> :wincmd j<CR>
 
 " GoTo code navigation.
 nmap <silent> gd <Plug>(coc-definition)
@@ -27,4 +32,10 @@ else
 endif
 
 " Coc explorer keys
-nnoremap <leader>e :CocCommand explorer<CR>
+nnoremap <silent> <leader>e :CocCommand explorer<CR>
+
+" Easymotion
+nmap <silent> <leader>s <Plug>(easymotion-s2)
+
+" fzf
+nnoremap <silent> <leader>f :Files<CR>
